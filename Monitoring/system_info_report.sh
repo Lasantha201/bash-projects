@@ -62,6 +62,6 @@ echo " "
 echo -e "${RED}/////////////================/////////////${RESET}"
 
 
-} > "$REPORT_FILE"
+} > "$REPORT_FILE" #redirect direction
 
-cat "$REPORT_FILE"
+cat "$REPORT_FILE" #Show file info
