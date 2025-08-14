@@ -32,5 +32,5 @@ rsync_options="-avb --backup-dir=$2/$current_date --delete"
 # Run rsync
 rsync $rsync_options "$1" "$2/current" >> "backup_$current_date.log"
 
-
-echo -e "${BLUE}Backup completed successfully!${RESET}"
+# Done
+echo -e "${BLUE}Backup completed successfully! Log saved as backup_$current_date.log${RESET}"
