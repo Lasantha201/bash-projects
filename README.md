@@ -1,2 +1,2 @@
 # bash-projects
-A collection of practical Bash scripts demonstrating automation, file handling, system monitoring, and task management.
+A collection of practical Bash scripts demonstrating automation, file handling, system monitoring, Backup and task management.
